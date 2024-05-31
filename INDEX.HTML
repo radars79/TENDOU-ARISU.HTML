@@ -12,28 +12,54 @@
             width: 290px;
             height: 400px;
             margin: auto;
-            background-color: aliceblue;
+            background-color:white;
             margin-top: 170px;
             border-radius: 15px;
-            padding: 20px;
+            padding: 30px;
             font-size: 20px;
-
+            box-shadow: 10px 10px  black;
+            border-style:solid
         }
         .foto{
             border-radius: 15px;
+            border-style: solid;
+            border-color: rgb(0, 157, 255);
         }
+      .milenium{
+        display: flex;
+        align-items: center;
+      }
+        
        
     </style>
 </head>
 <body>
     <div class="box">
         <img class="foto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DS-_1vEMFPkfTdGZkFgH5d08uia4peD3Zw&usqp=CAU">
-        <h3 style="font-family: monospace; color:blue; text-align: center; margin-top: 0px;text-shadow: 5px 5px 2px rgb(30, 255, 0);text-shadow: 2px 2px 2px rgb(228, 59, 59);">
+        <h3 
+        style="font-family: monospace; color:blue; text-align: center; margin-top: 0px;text-shadow: 5px 5px 2px rgb(30, 255, 0);text-shadow: 2px 2px 2px rgb(228, 59, 59);">
             <marquee
                 behavior="slide"
                 scrollamount="5px"
                 loop="-1"
             ><i><b>TENDOU ARISU</b></marquee></i></h3>
+            <p 
+            style="margin-top: -20px;font-size: 15px;"
+            >March 25 2018</p>
+            <h3 
+            style="margin-top: 0px;font-family:monospace;font-size: 18px;text-align: center;"><b>milenium student</b>
+        </h3>
+            <p
+            style="font-size: 15px;"
+            >
+                Tendou Alice (天童アリス) is one of the students studying in Millennium Science School who wields a Railgun.
+            </p>
+            <div class="milenium">
+            <img src="data:image/png;base64,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"
+             alt=""
+             style="margin-left: -7px;" 
+             width="60px" height="60px"><h5>MILENIUM</h5>
+            </div>
     </div>
 
 </body>
